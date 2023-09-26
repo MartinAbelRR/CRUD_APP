@@ -1,0 +1,24 @@
+* Instalar tailwind CSS
+  npm install -D tailwindcss postcss autoprefixer
+
+* Iniciar tailiwind CSS
+  npx tailwindcss init -p
+
+* Agregar directivas "./src/index.css"
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+* Instalar Paquetes
+  yarn add react-icons
+  yarn add axios
+  
+* Consumir la API
+- Ir a package.json.
+- Indicar que vamos a utilizar un proxi.
+
+
+* Notas
+- proxy: una red informática, es un servidor "programa o dispositivo", que hace de 
+         intermediario en las peticiones de recursos que realiza un cliente a otro 
+	 servidor. 

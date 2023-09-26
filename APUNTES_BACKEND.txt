@@ -1,0 +1,27 @@
+* Entornos de Desarrollo Python
+- En caso no Tengas el Paquete virtualenv
+  pip install virtualenv
+- Crear Ambiente Virtual
+  python -m venv _NOMBRE_ENTORNO_
+- Activar Ambiente
+  _NOMBRE_ENTORNO\Scripts\activate.bat
+
+* Instalar los Paquetes que Vamos a Usar
+  pip install djangorestFramework
+
+* Crear Proyecto de Django
+  django-admin startproject _NOMBRE_PROYECTO_	
+
+* Correr el Servidor
+  py manage.py runserver
+
+* Migrar la Base de Datos
+  python manage.py migrate (Realizar migración).
+    python manage.py makemigrations (Cada vez que se crea un modelo -> tabla o un cambio en la base de datos). 
+
+* Crear Aplicación
+  python manage.py startapp _NOMBRE_APP_
+
+* Comandos Extras
+  pip freeze (Muestra los paquetes que estan instalados en el entorno virtual).
+  code . (Abrir el editor de visual study code).
